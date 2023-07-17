@@ -35,6 +35,14 @@ The application outputs the following information extracted from the image:
 
 Each dense caption includes the caption content, the bounding box of the region, and the confidence in the caption. 💡
 
+## Additional Documentation to learn more 📚
+
+To learn more about Azure Computer Vision used in this project, please refer to the official Microsoft Learn documentation:
+- [Microsoft Learn Documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-describe-images-40?tabs=image?WT.mc_id=AI-MVP-5004753)
+- [Analyze images with the Computer Vision service](https://bit.ly/azurecomputervisionmicrosoftlearn)
+- [Create computer vision solutions with Azure Cognitive Services](https://bit.ly/computervisionsolutionswithAzure
+)
+
 ## Contributions 🤝
 
 Contributions are welcome. Feel free to open an Issue or make a Pull Request.
