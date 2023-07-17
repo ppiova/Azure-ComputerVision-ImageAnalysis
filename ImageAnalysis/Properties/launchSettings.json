@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ImageAnalysis": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "VISION_ENDPOINT": "",
+        "VISION_KEY": ""
+      }
+    }
+  }
+}
