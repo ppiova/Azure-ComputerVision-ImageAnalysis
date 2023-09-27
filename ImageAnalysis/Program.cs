@@ -11,9 +11,9 @@ class Program
     }
     public static async Task AnalyzeImageAsync()
     {
-        var key = Environment.GetEnvironmentVariable("VISION_KEY");
+        var key = Environment.GetEnvironmentVariable("VISION_KEY_FLORENCEDEMOS");
         var serviceOptions = new VisionServiceOptions(
-                Environment.GetEnvironmentVariable("VISION_ENDPOINT"),
+                Environment.GetEnvironmentVariable("VISION_ENDPOINT_FLORENCEDEMOS"),
                 new AzureKeyCredential(key));
 
         using var imageSource = VisionSource.FromUrl(new Uri("https://raw.githubusercontent.com/ppiova/Azure-ComputerVision-BackgroundRemoval/main/Images/RiseoftheResistance.jpg"));
@@ -21,7 +21,12 @@ class Program
         var analysisOptions = new ImageAnalysisOptions()
         {
             Features = ImageAnalysisFeature.Caption
-                     | ImageAnalysisFeature.DenseCaptions,
+                //| ImageAnalysisFeature.CropSuggestions
+                //| ImageAnalysisFeature.Objects
+                //| ImageAnalysisFeature.People
+                //| ImageAnalysisFeature.Text
+                //| ImageAnalysisFeature.Tags
+                | ImageAnalysisFeature.DenseCaptions,
             Language = "en",
             ModelVersion = "latest",
             GenderNeutralCaption = true

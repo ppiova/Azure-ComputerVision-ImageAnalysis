@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.AI.Vision.ImageAnalysis" Version="0.13.0-beta.1" />
-    <PackageReference Include="Azure.Core" Version="1.34.0" />
+    <PackageReference Include="Azure.AI.Vision.ImageAnalysis" Version="0.15.1-beta.1" />
+    <PackageReference Include="Azure.Core" Version="1.35.0" />
   </ItemGroup>
 
 </Project>
